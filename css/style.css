@@ -413,11 +413,26 @@
     grid-template-columns: repeat(2, auto);
     margin: 15px 0 10px;
   }
+  .btn {
+    padding: 3px 5px;
+  }
 }
 
 @media (max-width: 740px) {
   .navbar_last {
     display: none;
+  }
+  .container_right-top {
+    padding: 10px;
+  }
+  .container_department {
+    padding: 10px;
+  }
+  .btn {
+    padding: 3px;
+  }
+  .bd_pd {
+    padding: 0;
   }
   .product_item-watch {
     width: 50%;
@@ -444,9 +459,7 @@
   .container_products {
     grid-template-columns: repeat(2, auto);
   }
-  .container_right {
-    padding: 10px;
-  }
+
   .container_right-bottom {
     grid-template-columns: repeat(1, auto);
     margin-bottom: 20px;
