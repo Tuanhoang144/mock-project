@@ -416,6 +416,15 @@
   .btn {
     padding: 3px 5px;
   }
+  .bd_pd {
+    padding: 0;
+  }
+  .container_right-top {
+    padding: 10px;
+  }
+  .container_department {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 740px) {
